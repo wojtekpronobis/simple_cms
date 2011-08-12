@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(:version => 20110808162405) do
     t.string   "password",   :limit => 40
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "username",   :limit => 25
   end
 
   create_table "pages", :force => true do |t|
